@@ -7,7 +7,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/japanese-document-md",
+  "repository": "https://github.com/K90j1/japanese-document-md",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
