@@ -1,40 +1,39 @@
-
-h1{
+div.markdown-preview h1{
     counter-increment: counter-h1;
     counter-reset: counter-h2;
 }
 
-h1:before{
+div.markdown-preview h1:before{
     content: "第"counter(counter-h1)"章";
     margin-right: 0.6em;
 }
 
-h2{
+div.markdown-preview h2{
     counter-increment: counter-h2;
     counter-reset: counter-h3;
 }
 
-h2:before{
+div.markdown-preview h2:before{
     content: "第"counter(counter-h2)"節";
     margin-right: 0.6em;
 }
 
-h3{
+div.markdown-preview h3{
     counter-increment: counter-h3;
     counter-reset: counter-h4;
 }
 
-h3:before{
+div.markdown-preview h3:before{
     content: "第"counter(counter-h3)"項";
     margin-right: 0.6em;
 }
 
-h4{
+div.markdown-preview h4{
     counter-increment: counter-h4;
     counter-reset: counter-h5;
 }
 
-h4:before{
+div.markdown-preview h4:before{
     content: "第"counter(counter-h4)"";
     margin-right: 0.6em;
 }
